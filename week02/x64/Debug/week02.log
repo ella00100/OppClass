@@ -1,0 +1,3 @@
+﻿  HW02.cpp
+C:\C++\OppClass01\week02\HW02.cpp(12,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  week02.vcxproj -> C:\C++\OppClass01\x64\Debug\week02.exe
