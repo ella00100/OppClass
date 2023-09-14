@@ -7,12 +7,10 @@ int main(void) {
 	for ( int i = 1; i <= 100; i++) {
 		if (i % 2 == 0)
 		{
-			cout << "even" <<  i << endl;
 			sumEven = sumEven + i;
 		}
 		else
 		{
-			cout <<  "odd" << i << endl;
 			sumOdd = sumOdd + i;
 		}
 	}
