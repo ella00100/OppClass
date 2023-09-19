@@ -13,4 +13,6 @@ int main(void) {
 		cout << "Heart" << endl;
 	}
 	cout << "thought one wears a suite" << endl;
+
+	return 0;
 }
