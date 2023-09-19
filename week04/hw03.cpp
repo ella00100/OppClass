@@ -16,7 +16,7 @@ int main(void)
 		cout << "See through C" << endl;
 		break;
 	case (int(3.5)):
-		cout << "Simply c" << endl;
+		cout << "Simply C" << endl;
 	}
 	return 0;
 }
