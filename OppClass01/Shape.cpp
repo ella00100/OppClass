@@ -1,6 +1,14 @@
 #include "Shape.h"
 
-Shape::Shape(int don, double x, double y, const char* s) {
+Shape::Shape(const Shape& s) : id(s.id) {
+	cout << "복사 생성자 호출됨" << endl;
+	price = s.price;
+	x = s.x;
+	y = s.y;
+	owner = new char[strlen(s.owner) + 1];
+}
+
+Shape::Shape(int _id, int don, double x, double y, const char *s) : id(_id) {
 	cout << "4인자 생성자 호출됨" << endl;
 	price = don;
 	this->x = x;
@@ -19,6 +27,6 @@ void Shape::setXY(double xx, double yy) {
 	y = yy;
 }
 
-void Shape::setPrice(int don) {
-	price = don;
+void Shape::showPrice() const {
+	cout << price << endl;
 }

@@ -9,15 +9,18 @@ using std::endl;
 
 class Shape {
 private:
-	int price;
-public:
-	double x, y;
-	char* owner;
+    const int id;
+    int price;
+    double x, y;
 
-	Shape(int don = 0, double x = 0, double y = 0, const char* s = "you");
-	~Shape();
-	void setXY(double xx, double yy);
-	void setPrice(int don);
+public:
+    char* owner;
+    Shape(const Shape& s);
+    Shape(int _id, int don = 0, double x = 0, double y = 0, const char* s = "you");
+    ~Shape();
+
+    void setXY(double xx, double yy);
+    void showPrice() const;
 };
 
-#endif;
+#endif // SHAPE_H_
