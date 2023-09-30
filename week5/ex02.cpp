@@ -8,6 +8,7 @@ int main() {
 	int x = 3;
 	int y = 9;
 	cout << get_max(x, y) << endl;
+
 	return 0;
 }
 
