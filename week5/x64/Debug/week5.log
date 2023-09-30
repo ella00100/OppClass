@@ -1,2 +1,3 @@
-﻿  ex07.cpp
+﻿  ex1.cpp
+C:\C++\OppClass01\week5\ex1.cpp(6,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   week5.vcxproj -> C:\C++\OppClass01\x64\Debug\week5.exe
